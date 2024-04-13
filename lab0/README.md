@@ -17,6 +17,7 @@ sudo insmod proc_count.ko
 ```shell
 TODO: results?
 cat /proc/count
+135
 ```
 
 ## Cleaning Up
@@ -30,6 +31,8 @@ sudo rmmod proc_count
 python -m unittest
 ```
 TODO: results?
+Ran 3 tests in 13.486s
+
 
 Report which kernel release version you tested your module on
 (hint: use `uname`, check for options with `man uname`).
