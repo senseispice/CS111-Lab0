@@ -5,25 +5,25 @@ This program counts all currently running processes and writes this info to the 
 ## Building
 ```shell
 TODO: cmd for build
-```
 make
+```
 
 ## Running
 ```shell
 TODO: cmd for running binary
-```
 sudo insmod proc_count.ko
+```
 
+```shell
 TODO: results?
 cat /proc/count
-
+```
 
 ## Cleaning Up
 ```shell
 TODO: cmd for cleaning the built binary
-```
 sudo rmmod proc_count
-
+```
 
 ## Testing
 ```python
@@ -39,5 +39,4 @@ It should match release numbers as seen on https://www.kernel.org/.
 uname -r -s -v
 ```
 TODO: kernel ver?
-uname -r
-
+5.14.8
